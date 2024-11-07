@@ -1,0 +1,106 @@
+body {
+    background-image: url("/image/Background.jpg");
+    font-family: "Nougat", sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #222;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #ffcc00;
+}
+
+header h1 {
+    color: #ffcc00;
+    margin: 0;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.header-logo {
+    width: 50px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.character-image {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.character-image img {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.character-profile {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    padding-top: 60px;
+    background-color: #333;
+    border-radius: 40px;
+    position: relative;
+}
+
+h1, h2, h3 {
+    color: #ffcc00;
+}
+
+.stats-section, .equipment-section, .recommended-maps {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.gadget, .star-power {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+    border-top: 2px solid #ffcc00;
+    color: #ccc;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
